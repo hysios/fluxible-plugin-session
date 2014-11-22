@@ -1,0 +1,25 @@
+{
+  "name": "fluxible-plugin-session",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/unit/ --recursive --reporter spec"
+  },
+  "keywords": [
+    "flux",
+    "react",
+    "fluxible"
+  ],
+  "author": "Hysios Hu <hysios@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "fluxible-app": "^0.1.1"
+  },
+  "dependencies": {
+    "debug": "^2.1.0",
+    "merge-descriptors": "0.0.2"
+  }
+}
