@@ -1,7 +1,7 @@
 {
   "name": "fluxible-plugin-session",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "A plugin to join the session to FluxibleContext for Fluxible",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/unit/ --recursive --reporter spec"
@@ -16,7 +16,7 @@
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.0.1",
-    "fluxible-app": "^0.1.1"
+    "fluxible": "^1.2.0"
   },
   "dependencies": {
     "debug": "^2.1.0",
