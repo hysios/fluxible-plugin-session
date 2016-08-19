@@ -1,5 +1,5 @@
 var sessionPlugin = require('../../lib/session-plugin');
-var FluxibleApp = require('fluxible-app');
+var Fluxible = require('fluxible');
 var expect = require('chai').expect;
 
 describe('sessionPlugin', function(){
@@ -15,7 +15,7 @@ describe('sessionPlugin', function(){
 				email: 'hysios@gmail.com'
 			}
 		};
-		app = new FluxibleApp();
+		app = new Fluxible();
 		pluginInstance = sessionPlugin();
 		app.plug(pluginInstance);
 
